@@ -1,3 +1,15 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+/**
+ * isAnagram - checks if two strings are anagrams of each other
+ * @s: the first string
+ * @t: the second string
+ *
+ * Return: true if the strings are anagrams, false otherwise.
+ */
 bool isAnagram(string s, string t)
 {
 	int i, j;

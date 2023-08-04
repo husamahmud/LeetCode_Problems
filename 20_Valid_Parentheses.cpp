@@ -1,4 +1,16 @@
-bool isValid(string str)
+#include <stack>
+#include <iostream>
+
+using namespace std;
+
+/**
+ * isValid - checks whether a string containing parentheses,
+ * 					curly brackets, and square brackets is valid
+ *
+ * @str: The input string
+ * Return: true if the string is valid, false otherwise
+ */
+bool isValid(const string &str)
 {
 	stack<char> stk;
 

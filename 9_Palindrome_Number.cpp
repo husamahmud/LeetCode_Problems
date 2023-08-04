@@ -1,3 +1,10 @@
+/**
+ * isPalindrome - determines whether an integer is a palindrome
+ * @nums: the integer to check
+ *
+ * Return: True if the integer is a palindrome, false otherwise
+ */
+
 bool isPalindrome(int x)
 {
 	unsigned int rev = 0;
