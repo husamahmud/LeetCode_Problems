@@ -1,3 +1,14 @@
+#include <string>
+
+using namespace std;
+
+/**
+ * addBinary - adds two binary strings
+ * @a: the first binary string
+ * @b: the second binary string
+ *
+ * Return: the sum of two binary strings as a binary string
+ */
 string addBinary(string a, string b)
 {
 	string res;
